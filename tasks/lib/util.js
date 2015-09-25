@@ -81,7 +81,8 @@ exports.init = function (grunt) {
       port: options.port,
       username: options.username,
       readyTimeout: options.readyTimeout,
-      agentForward: options.agentForward
+      agentForward: options.agentForward,
+      keepaliveInterval: options.keepaliveInterval
     };
 
     if (options.privateKey) {
