@@ -82,7 +82,8 @@ exports.init = function (grunt) {
       username: options.username,
       readyTimeout: options.readyTimeout,
       agentForward: options.agentForward,
-      keepaliveInterval: options.keepaliveInterval
+      keepaliveInterval: options.keepaliveInterval,
+      keepaliveCountMax: options.keepaliveInterval
     };
 
     if (options.privateKey) {
